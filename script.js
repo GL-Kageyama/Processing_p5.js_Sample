@@ -87,10 +87,10 @@ class Obj {
 }
 
 function func(t, num) {
-    let tmpA = 360 / num;
-    let tmpB = acos(cos(num * t));
-    let A = cos(tmpA);
-    let B = cos(tmpA - tmpB / num);
+    let tA = 360 / num;
+    let tB = acos(cos(num * t));
+    let A = cos(tA);
+    let B = cos(tA - tB / num);
 
     return A / B;
 }
